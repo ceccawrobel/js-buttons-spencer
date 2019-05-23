@@ -1,0 +1,21 @@
+h1#catdog {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2#battle {
+  text-align: center;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* #cat-buttons {
+  text-align: left;
+}
+
+#dog-buttons {
+  text-align: right;
+} */

@@ -3,20 +3,39 @@
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Talk to the web page</title>
+    <title>catdog</title>
   </head>
 
   <body>
-    <h1>CAT VERSUS DOG</h1>
-    <h2>A Battle of Sound, in text</h2>
+    <div class="container">
+      <h1 id="catdog">CAT VERSUS DOG</h1>
+      <h2 id="battle">A Battle of Sound, in text</h2>
 
-    <div class="row">
-      <div class="col-md-6" id="cat-col">
-      </div>
-      <div class="col-md-6" id="dog-col">
+      <p>click the buttons to have 'em interact</p>
+
+      <div class="row">
+        <div class="col-md-6" id="cat-col">
+          <h3>cat says</h3>
+          <div id="cat-buttons">
+            <button class="btn btn-warning" id="cat-meow">sweet</button>
+            <button class="btn btn-danger" id="cat-hiss">mad</button>
+          </div>
+          <ul id="cat">
+          </ul>
+        </div>
+
+        <div class="col-md-6" id="dog-col">
+          <h3>dog says</h3>
+          <div id="dog-buttons">
+            <button class="btn btn-info" id="dog-arf">sweet</button>
+            <button class="btn btn-primary" id="dog-woof">mad</button>
+          </div>
+          <ul id="dog">
+          </ul>
+        </div>
       </div>
     </div>
   </body>
